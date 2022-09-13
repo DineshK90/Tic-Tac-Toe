@@ -14,3 +14,11 @@ Thit is a TicTacToe game designed for my first project with General Assembly.
 --Add in bonuses if possible
 
 ###Current idea for game is still basic, will update further if I get ideas on how to make it different, but focusing on the basic functionality for now..
+
+
+-- set player constants
+-- set winning configurations
+-- create html with 9 div class for config
+-- addeventlistener to detect clicks
+-- set victory parameters
+-- push victory/draw/lose message into HTML div created earlier
