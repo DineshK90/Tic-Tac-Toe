@@ -11,8 +11,8 @@
     <h1>Tic Tac Toe</h1>
 
     <div id="playfield">
-        <div data-index="1" class="x-hover tile left-border top-border right-border bottom-border"></div>
-        <div data-index="2" class="o-hover tile top-border right-border bottom-border"></div>
+        <div data-index="1" class="tile left-border top-border right-border bottom-border"></div>
+        <div data-index="2" class="tile top-border right-border bottom-border"></div>
         <div data-index="3" class="tile top-border right-border bottom-border"></div>
         <div data-index="4" class="tile left-border right-border bottom-border"></div>
         <div data-index="5" class="tile right-border bottom-border"></div>
@@ -22,12 +22,13 @@
         <div data-index="9" class="tile right-border bottom-border"></div>
         <div id="strike" class="strike "></div>
     </div>
+    <br>
+    <br>
 
 
-    <div id="notice-board">
-        <h2>The winner is X</h2>
+    <div id="notice-board" class="hidden">
+        <h2 id="end-game-text">End Game</h2>
         <button id="start-game">Start Game</button><br>
-        <button id="reset-game">Reset</button>
     </div>
     
     <script src="app.js"></script>
