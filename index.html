@@ -6,33 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TicTacToe</title>
     <link rel="stylesheet" href="styles.css">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nabla&display=swap" rel="stylesheet">
+       </head>
 <body>
-    <h1>Tic Tac Toe</h1>
+    <h1>TIC TAC TOE</h1>
+    <h3>PLAYER 1 IS X</h3>
+    <h3>PLAYER 2 IS O</h3>
+    <br>
 
-    <div id="playfield">
-        <div data-index="1" class="tile left-border top-border right-border bottom-border"></div>
-        <div data-index="2" class="tile top-border right-border bottom-border"></div>
-        <div data-index="3" class="tile top-border right-border bottom-border"></div>
-        <div data-index="4" class="tile left-border right-border bottom-border"></div>
+
+    <section id="playfield">
+        <div data-index="1" class="tile right-border bottom-border"></div>
+        <div data-index="2" class="tile right-border bottom-border"></div>
+        <div data-index="3" class="tile bottom-border"></div>
+        <div data-index="4" class="tile right-border bottom-border"></div>
         <div data-index="5" class="tile right-border bottom-border"></div>
-        <div data-index="6" class="tile right-border bottom-border"></div>
-        <div data-index="7" class="tile left-border right-border bottom-border"></div>
-        <div data-index="8" class="tile right-border bottom-border"></div>
-        <div data-index="9" class="tile right-border bottom-border"></div>
+        <div data-index="6" class="tile bottom-border"></div>
+        <div data-index="7" class="tile right-border"></div>
+        <div data-index="8" class="tile right-border"></div>
+        <div data-index="9" class="tile "></div>
         <div id="strike" class="strike "></div>
-    </div>
+    </section>
     <br>
     <br>
 
-
-    <div id="notice-board" class="hidden">
+    <section id="notice-board" class="hidden">
         <h2 id="end-game-text">End Game</h2>
-        <button id="start-game">Start Game</button><br>
-    </div>
+        <h2 id="wins"></h2>
+
+        <button id="start-game">New Game</button><br>
+    </section>
+
+    <audio autoplay loop controls>
+        <source src="sounds/bgm.mp3" type="audio/mp3" />
+      </audio>
     
     <script src="app.js"></script>
 </body>
-
 
 </html>

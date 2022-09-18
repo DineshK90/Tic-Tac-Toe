@@ -1,6 +1,7 @@
 ////////////////Starting variable
 
 const tile = document.querySelectorAll(".tile");
+
 const playerX = 'X';
 const playerO = 'O';
 
@@ -105,11 +106,12 @@ function winCheck() {
         }
     }
 
-    const fullTiles = fieldStatus.every((tile) => tile !== null);
+    const fullTiles = fieldStatus.every((tile) => tile != null);
     if(fullTiles){
-        noticeBoard(null);
+        endGame(null);
     }
 }
+
 
 function endGame(winText){
     let text = "Draw!";
@@ -132,3 +134,5 @@ function startNewGame(){
     turn = playerX;
     setHoverText();
 }
+
+

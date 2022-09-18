@@ -6,8 +6,12 @@ body{
     background-color: skyblue;
 }
 
+
+
 h1 {
     color: goldenrod;
+    font-family: 'Nabla', cursive;
+    font-size: 72px;
 }
 
 
@@ -55,44 +59,44 @@ h1 {
 }
 .strike-top-row {
     width: 100%;
-    height: 4px;
+    height: 10px;
     top: 15%;
 }
 .strike-middle-row {
     width: 100%;
-    height: 4px;
+    height: 10px;
     top: 48%;
 }
 .strike-bottom-row {
     width: 100%;
-    height: 4px;
+    height: 10px;
     top: 83%;
 }
 .strike-left-column {
     height: 100%;
-    width: 4px;
+    width: 10px;
     left: 15%;
 }
 .strike-middle-column {
     height: 100%;
-    width: 4px;
+    width: 10px;
     left: 48%;
 }
 .strike-right-column {
     height: 100%;
-    width: 4px;
+    width: 10px;
     left: 83%;
 }
 .strike-diagonal-1{
     width: 90%;
-    height: 4px;
+    height: 10px;
     top: 50%;
     left: 5%;
     transform: skewY(45deg);
 }
 .strike-diagonal-2{
     width: 90%;
-    height: 4px;
+    height: 10px;
     top: 50%;
     left: 5%;
     transform: skewY(-45deg);
@@ -102,23 +106,25 @@ h1 {
 
 #notice-board {
     text-align: center;
-    border: darkgreen 3px solid;
+    border: gold 3px solid;
     padding: 30px;
     width: 50%;
     margin-top: 60px;
 }
 
 h2 {
-    color: goldenrod;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
     font-size: 2em;
     margin-top: 0;
 }
 
 #start-game {
-    background-color: transparent;
-    border: white 1px solid;
+    /* background-color: transparent; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: gold 4px solid;
     padding: 10px;
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 
