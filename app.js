@@ -121,6 +121,7 @@ function endGame(winText){
     noticeBoard.className = "visible";
     document.getElementById("end-game-text").innerText = text;
     endGameSound.play();
+    
 
 }
 
@@ -136,3 +137,16 @@ function startNewGame(){
 }
 
 
+//////////score
+
+// let drawScore = 0;
+// let xWins = 0;
+// let Owins = 0;
+
+// function addScore() {
+//     if(endGame(null)){
+//         for(let i=drawScore; i< drawScore.length; i++){
+//             document.getElementById("score-board").innerHTML = 'sss: ' + i ;
+//         } 
+//     }
+// }

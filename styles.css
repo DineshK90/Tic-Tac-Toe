@@ -15,6 +15,14 @@ h1 {
 }
 
 
+#info-panel {
+    border: gold 2px solid;
+    padding: 15px;
+    margin-bottom: 25px;
+    
+}
+
+
  /* Shaping the playfield */
 
 #playfield{
@@ -23,6 +31,7 @@ h1 {
     grid-template-rows: 100px 100px 100px;
     cursor: crosshair;
     position: relative;
+    margin-bottom: 30px;
 }
 
 
@@ -109,7 +118,7 @@ h1 {
     border: gold 3px solid;
     padding: 30px;
     width: 50%;
-    margin-top: 60px;
+    margin-top: 60px; 
 }
 
 h2 {
@@ -146,3 +155,5 @@ h2 {
     content: "O";
     color: greenyellow;
 }
+
+

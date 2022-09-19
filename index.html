@@ -12,12 +12,14 @@
        </head>
 <body>
     <h1>TIC TAC TOE</h1>
+
+    <section id="info-panel">
     <h3>PLAYER 1 IS X</h3>
     <h3>PLAYER 2 IS O</h3>
-    <br>
+    </section>
 
-
-    <section id="playfield">
+    
+    <main id="playfield">
         <div data-index="1" class="tile right-border bottom-border"></div>
         <div data-index="2" class="tile right-border bottom-border"></div>
         <div data-index="3" class="tile bottom-border"></div>
@@ -28,10 +30,17 @@
         <div data-index="8" class="tile right-border"></div>
         <div data-index="9" class="tile "></div>
         <div id="strike" class="strike "></div>
-    </section>
-    <br>
+    </main>
     <br>
 
+    <!-- <section id="score-board">
+        <p>Score Board</p>
+<div id="x-wins">X: </div>
+<div id="o-wins">O: </div>
+<div id="drawResult">Draw: </div> -->
+
+    <!-- </section> -->
+    
     <section id="notice-board" class="hidden">
         <h2 id="end-game-text">End Game</h2>
         <h2 id="wins"></h2>
