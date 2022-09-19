@@ -33,12 +33,12 @@ tile.forEach((tile) => tile.addEventListener("click", tileClick));
 
 function setHoverText(){
     tile.forEach(tile => {
-        tile.classList.remove("X-hover")
-        tile.classList.remove("O-hover")
+        tile.classList.remove("x-hover");
+        tile.classList.remove("o-hover");
     });
-    const hoverClass = `${turn.toLocaleLowerCase()}-hover`;
+    const hoverClass = `${turn.toLowerCase()}-hover`;
 
-    tile.forEach(tile=>{
+    tile.forEach((tile) => {
         if(tile.innerText == ""){
             tile.classList.add(hoverClass);
         }
